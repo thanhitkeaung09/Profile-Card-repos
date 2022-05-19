@@ -1,0 +1,54 @@
+
+
+$theme-colors:(
+        "primary":hsl(185, 75%, 39%),
+        "secondary":hsl(229, 23%, 23%),
+        "white":hsl(227, 10%, 46%),
+        "danger":hsl(0, 0%, 59%)
+);
+
+
+$border-radius:15px;
+$btn-border-radius-lg:10px;
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+$font-family-sans-serif: 'Kumbh Sans', sans-serif;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/animate.css";
+
+
+
+
+p{
+  font-size: 18px !important;
+
+}
+.small{
+  font-size: 13px !important;
+}
+
+.bg-home{
+  background-color: var(--bs-primary);
+  background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
+  background-position: -274px -319px, 753px 351px;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+.card{
+  transition: 0.5s;
+}
+.card:hover .card-vector-img{
+  transform: scale(1.1);
+}
+.card-vector-img{
+  margin-top: -76px;
+  transition: 0.5s;
+
+
+}
+
+.spacer{
+  height: 20px;
+}
+
